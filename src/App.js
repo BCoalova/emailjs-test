@@ -24,15 +24,15 @@ const App = () => {
         <Container>
             <Form onSubmit={(e) => handleSubmit(e)}>
                 <Form.Group>
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>Name</Form.Label>
                     <Form.Control type="text" placeholder="name" name="name" />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>email</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="Email" name="email" />
                 </Form.Group>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} name="message" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
